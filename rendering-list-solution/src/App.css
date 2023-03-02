@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #e6dce7;
+}
+
+.addStudent{
+  background-color: darkcyan;
+}
+
+.name, .age, .country, .action {
+  margin : 10px;
+  width : 200px;
+  font-size: 16px;
+}
+
+.btnAddStudent{
+  color : black;
+  background-color: #e6dce7;
+  border : 1px solid cadetblue;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.stdList{
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 10px;
+  display: flex;
+}
